@@ -1,0 +1,47 @@
+.site-header {
+  background: darkslateblue;
+  color: white;
+}
+
+/*-----스타일 클래스----------------*/
+.t-center {
+  text-align: center;
+}
+
+.py-1 {
+  padding: 1rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.j-center {
+  justify-content: center;
+}
+.ml-1 {
+  margin-left: 1rem;
+}
+/*---------------------*/
+
+form, fieldset {
+  border: 0;
+  margin: 0;
+}
+
+legend, label {
+  display: none;
+}
+
+#delete {
+  width: 20px;
+  height: 20px;
+  background: red;
+  color: white;
+  border: 0;
+  vertical-align: text-bottom;
+}
+
+#delete:hover {
+  background: blue;
+}
